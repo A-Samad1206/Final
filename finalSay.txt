@@ -31,28 +31,49 @@ Nginx
 
 Projects
 --------------------
-Portfolio
-Project
-Driver API
+Portfolio 
+Ecart
+Google Driver API
 Crypto-Currency
 Video Streaming
-Other Project
+
 
 WebSite Should Have Features
 ------------------------------
-PWA
-Share URL = Short URL
+Header
+
+Search
 Infinite Scrolling / Pagination
-CSRF
+
+Comment
+
+Forgot PWD
+Reset PWD
+Email Registration
 2FA
-Firebase Auth 2 Backend
-Map
-ARIA
+Firebase Auth 2 Backend (Google github twitter facebook)
+
+Image optimization
+
+Payment (Stripe+PayPal)
+
 LiveChat
 Notification
-Firebase Full Stack
+Tuillo 
+SendGrid
+
+Api-Docs
+
+PWA
 DevOps
------------------------
+
+Share URL = Short URL
+CSRF
+Map
+
+ARIA
+
+-----------DevOps------------
 CM - Chef,Puppet,Ansible
 CI - Jenkins,
 CT - SonarQube,Selenium,BrowserStack
@@ -73,3 +94,5 @@ Python
 Django/Flask
 ML
 AI
+C#
+.net

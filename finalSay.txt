@@ -50,10 +50,16 @@ Comment
 Forgot PWD
 Reset PWD
 Email Registration
+Cookie
 2FA
 Firebase Auth 2 Backend (Google github twitter facebook)
 
 Image optimization
+
+Ctx
+SWR
+
+Firebase Function =Serverless Function
 
 Payment (Stripe+PayPal)
 

@@ -65,7 +65,7 @@ Payment (Stripe+PayPal)
 
 LiveChat
 Notification
-Tuillo 
+Tuillo
 SendGrid
 
 Api-Docs

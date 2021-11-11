@@ -57,18 +57,22 @@ Copy/Paste
 	p => Paste one line below
 	shift + p =>Paste one line above
 ============05 User,Groups & Permissions===============
+ => Enable ssh root login
+	vim /etc/ssh/sshd_config              
+	systemctl restart sshd
+	PermitRootLogin yes
 sudo cat /etc/shadow 						=> List out all user's pwd
 sudo adduser newUserName					=> Add user 
 sudo groupadd newGroupName					=> Add group 
 sudo passwd										=> Change crt. user password 
 sudo passwd userName							=> Change userName password 
+sudo passwd root								=> Set super user pwd
 sudo userdel userName						=> Delete user
 sudo deluser userName groupName			=> Remove user from group
 groups											=> Crt user part of groups
 groups userName								=> userName part of groups
 sudo usermod -aG groupName1,groupName2,...,groupName-nth userName1
 id -gn											=> Primary Group 
-sudo passwd root								=> Set super user pwd
 su - === sudo su								=> Login a ssuper user
 sudo passwd -l root							=> Delete root user pwd
 sudo /etc/passwd								=> Spit out all users	

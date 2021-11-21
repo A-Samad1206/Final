@@ -54,49 +54,49 @@
     // vowelFlip();
     // objProp();
     // flip();
-    letVar();
+    // letVar();
     function letVar() {
-      console.log('grade', grade);
-      console.log('name', name);
-      console.log('Xyz', xyz);
-      let name = 'Abdus Samad';
-      grade = 'MCA';
-      var grade = 'BCA';
+      console.log("grade", grade);
+      console.log("name", name);
+      console.log("Xyz", xyz);
+      let name = "Abdus Samad";
+      grade = "MCA";
+      var grade = "BCA";
     }
     function flip() {
       String.prototype.flip = function () {
-        let str = this.split(''),
+        let str = this.split(""),
           end,
           punc = /[?.!]/;
         let len = str.length;
         if (punc.test(str[len - 1])) {
           end = str[len - 1];
-          str[len - 1] = '';
+          str[len - 1] = "";
         }
-        return str.reverse().join('') + end;
+        return str.reverse().join("") + end;
       };
 
-      const str = 'I m samad!';
+      const str = "I m samad!";
       console.log(str.flip());
     }
     function objProp() {
       let box = {};
       let bag = {
-        prop: 'bag',
-        can: 'box',
+        prop: "bag",
+        can: "box",
       };
       let can = {
-        prop: 'can',
-        bag: 'box',
+        prop: "can",
+        bag: "box",
       };
-      box[bag] = 'Monday';
-      box[can] = 'Tuesday';
+      box[bag] = "Monday";
+      box[can] = "Tuesday";
       console.log(box);
     }
 
     function vowelFlip() {
       const chk = (str) => {
-        str = str.split('');
+        str = str.split("");
         const stack = [];
         // Recored each vowel index and val
         str.forEach((val, index) => {
@@ -108,10 +108,10 @@
         for (let i = 0; i < stack.length; i++) {
           str[stack[i].index] = stack[stack.length - i - 1].val;
         }
-        str = str.join('');
+        str = str.join("");
         console.log(str);
       };
-      chk('javascript');
+      chk("javascript");
     }
     function pallindrome() {
       const chk = (str) => {
@@ -127,13 +127,13 @@
         const f = str.substring(0, Math.floor(len / 2)),
           l = str
             .substring(len - Math.floor(len / 2))
-            .split('')
+            .split("")
             .reverse()
-            .join('');
+            .join("");
 
         return f === l;
       };
-      console.log(chk('kaAk'));
+      console.log(chk("kaAk"));
     }
     function bigDiff() {
       const chk = (arr) => {
@@ -143,16 +143,16 @@
 
         return res[0] - res[res.length - 1];
       };
-      const res = chk(['15', '1', '2', '3', '3', '4', '5', '0']);
-      console.log('Res = ', res);
+      const res = chk(["15", "1", "2", "3", "3", "4", "5", "0"]);
+      console.log("Res = ", res);
     }
     function isAnagram() {
       const chk = (val1, val2) => {
-        const res1 = val1.toLowerCase().split('').sort().join('');
-        const res2 = val2.toLowerCase().split('').sort().join('');
+        const res1 = val1.toLowerCase().split("").sort().join("");
+        const res2 = val2.toLowerCase().split("").sort().join("");
         return res1 === res2;
       };
-      console.log(chk('abdc', 'acbD'));
+      console.log(chk("abdc", "acbD"));
     }
     function isInt() {
       const chk = (val) => !isNaN(val) && parseInt(val) === val;
@@ -163,17 +163,17 @@
       const circle = {
         radius: 10,
         cir: function (show = false) {
-          if (show) console.log('Circumference Normal', this);
+          if (show) console.log("Circumference Normal", this);
           const res = 2 * Math.PI * this.radius;
           return res;
         },
         area(show = false) {
-          if (show) console.log('Area Expression', this);
+          if (show) console.log("Area Expression", this);
           const res = Math.PI * this.radius * this.radius;
           return res;
         },
         dia: (show = false) => {
-          if (show) console.log('Diameter Arrow', this);
+          if (show) console.log("Diameter Arrow", this);
           const res = 2 * this.radius;
           return res;
         },
@@ -183,8 +183,8 @@
       circle.dia(true);
     }
     function parse() {
-      let res = ['1', '7', '2555555'].map((val, index) => parseInt(val, index));
-      console.log('Result :- ', res);
+      let res = ["1", "7", "2555555"].map((val, index) => parseInt(val, index));
+      console.log("Result :- ", res);
     }
     function asi() {
       let a = {
@@ -195,13 +195,13 @@
       });
     }
     function chaining() {
-      console.log('chainign');
+      console.log("chainign");
       one = function () {
-        console.log('one');
+        console.log("one");
         return this;
       };
       two = function () {
-        console.log('two');
+        console.log("two");
       };
       return this;
     }
@@ -210,14 +210,14 @@
       let myModule = (function () {
         let _data = [];
         let _add = () => {
-          console.log('Add');
+          console.log("Add");
         };
         let _delete = () => {
-          console.log('_delete');
+          console.log("_delete");
         };
         // This is only public.
         let _render = () => {
-          console.log('render');
+          console.log("render");
         };
         return { render: _render };
       })();
@@ -229,35 +229,35 @@
     function async() {
       let num = 0;
       async function increment() {
-        console.log('Pre Inside ', num);
+        console.log("Pre Inside ", num);
         //   num += await 2; // Put o aside and run rest of fun/stack later
 
         num = 2 + (await 2);
-        console.log('Inside ', num);
+        console.log("Inside ", num);
       }
       increment();
       num += 1;
-      console.log('Outside ', num);
+      console.log("Outside ", num);
     }
 
     function timeout() {
-      console.log('a');
+      console.log("a");
       setTimeout(function () {
-        console.log('b');
+        console.log("b");
       }, 2);
       setTimeout(function () {
-        console.log('c');
+        console.log("c");
       }, 6);
       setTimeout(function () {
-        console.log('d');
+        console.log("d");
       }, 0);
-      console.log('e');
+      console.log("e");
     }
     function arrPrePopulate() {
       let a1 = Array.from({ length: 5 }, (n) => Math.random());
-      console.log('Array1', a1);
+      console.log("Array1", a1);
       let a2 = new Array(5).fill(25);
-      console.log('Array2', a2);
+      console.log("Array2", a2);
     }
   </script>
 </html>

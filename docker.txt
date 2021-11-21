@@ -1,3 +1,0 @@
--e === --env 
---env-files ./.env
-docker-compose up --scale node-app=2

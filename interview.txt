@@ -1,13 +1,20 @@
-Nginx
-Docker Mern Image
-Swarm WatchTower
-Next.js Features
-Projects
-SEO
-Accessibility
-Best Practices
-web.dev.com
+HTML
+JS
+React
+Next.js
+
+CSS
+Node
+Mongo
+
+C/Cpp
+OS
 DS
 DBMS
-OS
-AWSf
+CN
+
+Docker
+SSH
+Linux
+Jenkins
+Ansible

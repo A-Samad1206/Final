@@ -9,7 +9,7 @@ sup
 ins
 del
 small
-Strong
+strong
 mark
 
 Quotation Tag:-
@@ -33,7 +33,7 @@ ul :- list-style-type
 ol type="a/A/1/i" start
 dl dd dt
 
-Head :- Containe meta-data (data about data)
+Head :- Contain meta-data (data about data)
 title
 link
 meta
@@ -44,18 +44,19 @@ base
 Semantic Element:-
 
    Layout
-   header
-   nav
-   section
-   article
-   aside
-   footer
-   details
-   summary   
-   time
+      header
+      nav
+      section
+      article
+      aside
+      footer
+      details
+      summary   
+      time
 
 Responsive Element:-
-   Web pages that looks good n every device
+Web pages scale itself nicely to fit on any device.
+   Web pages that looks good on every device
    Adjust itself on every device
    Scale nicely to fit on any device.
 

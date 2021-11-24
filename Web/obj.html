@@ -8,7 +8,18 @@
   </head>
   <body></body>
   <script>
-    str = "abc".padEnd(10, "defghijklmn");
-    console.log(str); // "abc**"
+    "use strict";
+    var x = function () {
+      if (true) {
+        var i = 3;
+        console.log("Inside first if ", i);
+      }
+      if (true) {
+        var i = 4;
+        console.log("Inside second if ", i);
+      }
+      console.log("Outside ", i);
+    };
+    x();
   </script>
 </html>

@@ -1,4 +1,10 @@
-﻿Computer Program :- List of instruction to be executed by computer.
+﻿var y=2;
+var x=()=>{
+    console.log(y) =>undefiend
+    var y=1;
+}
+x();
+Computer Program :- List of instruction to be executed by computer.
 Instruction :- In PL these instruction are called statements.
 statements consist of keyword,value,expression , operator.
 Simicolon:- Is used at the end of executable statements.

@@ -1,1 +1,0 @@
-ansible ip_address -m ping

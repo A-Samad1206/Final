@@ -205,8 +205,7 @@ Internet Layer
 Network Access Layer:-
     PPP,Ethernet,Interface Drivers
 
-
-PDU(Protocol Data Unit)
+PDU(Protocol Data Unit)(DSPFB)
 Named according to protocols of the TCP/IP suite,
     Data => Application Layer(APS)
     Segment => TPT layer

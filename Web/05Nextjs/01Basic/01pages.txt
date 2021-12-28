@@ -7,7 +7,7 @@ Pre-render :-
 2.) Hydration :- During pre-rendering each page HTML is associated with minimal JS ,on loading of page by browser 
             assciated JS code run of that page & make that page fully interactive.
 
-Two form ofpre-rendering:-
+Two form of pre-rendering:-
 They both differs when HTML will be generated.
 
 1.)Static Generation
@@ -42,9 +42,9 @@ this could in crash.
 
 ??? Why ISG/Regeneration
 SSG works on  princple kind of build once ,server forever.
-In case if data may get stale or old,to server latest data we have re-kick build process again. 
+In case if data may get stale or old,to serve latest data we have to re-kick the build process again. 
 which would have major disadvatage for app , no matter how fast/efficient build process is, bcoz we have to kind-off
-bring down the server , and global CDN would have to flag that data for making as cache and then will.
+bring down the server , and global CDN again would have to flag that data as cache for making as cache and then will.
 ISR comes into picture
 
 In ISR app would call respected API get latest data and will server latest data without fully re-building the entire

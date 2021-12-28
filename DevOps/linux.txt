@@ -6,13 +6,29 @@ less fileName (:q)
 
 ============ 02 Sudo===============
 sudo 							=> Give u root privileges
+groups => Groups of which u r part of 
+groups xyz => Groups of which xyz part of 
+id -gn => Ur Primary group
+cat /etc/passwd => All Users
+cat /etc/group => All Groups
+sudo vipw
+sudo vigr
+
+sudo adduser userName 	=> Add User
+sudo userdel user_name; => Delete user
+sudo passwd xyz    		=> Change xyz pwd
+
+sudo passwd root || sudo passwd    		=> Change root pwd
+
+sudo groupadd gr_name;
+sudo usermod -aG groupName userName    =>    Add User to Group
+sudo groupdel gr_name;
+sudo deluser username gr_name;
+
 su - userName  			=> Login As User 
-su - === sudo su			=> Login As Root
+su - || sudo su			=> Login As Root
 sudo -k 						=> Delete session
 sudo -i        			=> Create session As User
-sudo passwd root    		=> Change root pwd
-sudo adduser userName 	=> Add User
-sudo usermod -aG groupName userName =>Add User to Group
 
 Modify session duration	
 	cat /etc/sudoers

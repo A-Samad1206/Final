@@ -42,6 +42,8 @@ git config user.name "username"
 git config email.name "email@gmail.com"
 
 
+Merge last 4 commit in last 5th commit =>
 git rebase -i HEAD~5
 
-git commit --amend -m "add"
+Change last commit message =>
+ git commit --amend -m "add"

@@ -1,5 +1,4 @@
-﻿DBMS
-Data:-Raw & isolated data e.g. image,video,map etc
+﻿Data:-Raw & isolated facts abotan entitiy (recordable) e.g. image,video,map etc
 Information:-Processed, use-able & meaningfull data.
 Database:-Collection of similiar data/info.
 DBMS:-S/w used to create,read ,update & delete data/information.

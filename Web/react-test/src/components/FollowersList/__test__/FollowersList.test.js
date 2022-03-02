@@ -4,6 +4,7 @@ import {
   fireEvent,
   cleanup,
   waitForElementToBeRemoved,
+  screen,
 } from '@testing-library/react';
 import axios from 'axios';
 import FollowersList from '../FollowersList';
@@ -23,6 +24,7 @@ describe('FollwersList', () => {
     const { findAllByTestId } = render(<MockFollowersList />);
 
     const flItem = await findAllByTestId(/fl-item/i);
+    // screen.debug();
     expect(flItem.length).toBe(5);
   });
 });

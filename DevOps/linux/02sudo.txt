@@ -1,0 +1,12 @@
+sudo vi /etc/sudoers
+sudo visudo
+/*
+timestamp_timeout=[ 40 | -1 ]
+imsamad ALL=(ALL) NOPASSWD=ALL
+*/
+sudo -i => Login as sudo
+su - => Login as sudo
+su imsamad => Login as imsamad
+sudo -k => Kill session
+sudo passwd = Change password of root 
+sudo passwd userName = Change password of userName 

@@ -95,45 +95,8 @@ sudo /etc/passwd								=> Spit out all users
 sudo /etc/group = getent group			=> Spit out all groups
 nano /etc/passwd === sudo vipw			=> Run config check on modify
 nano /etc/group === sudo vigr				=> Run config check on modify
-------------Permissions--------------------------------
-Act of accesing on file.
+ 
 
-==============06 Compress=============
-gzip fileName
-gzip -d fileName === gunzip fileName => Uncompress 
-
-gzip -c fileName >> newFileName
-gzip -c -d fileName >> newFileName === gunzip -c fileName >> newFileName
-
-Display
-gzip -cd fileName | less
-gunzip -c fileName | less
-zcat fileName
-
-bzip2
-bzip2 -c 
-bunzip2
-bzip2 -dc 
-bzcat 
-
-Compression Rate
-gzip -[1-9] fileName
-gzip -l fileName   => Details
-
-TAR=>
-tar cf fileName.tar fileName
-z => compression
-v => verbose
-Display
-tar tf fileName
-v => verbose
-Uncompress
-tar xf fileName
-v => verbose
-
-j FOR bzip2
-
-p => reserve permission of inside files
 
 ==============07 Cron =============
 crontab -l

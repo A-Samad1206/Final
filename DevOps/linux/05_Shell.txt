@@ -1,0 +1,21 @@
+Print all env
+    printenv
+Print all shell
+    set
+Print specific shell variable
+    set | grep MY_VAR
+
+Set as shell var
+    MY_VAR=sdedwe
+
+Set already existed shell varianle as env var
+    export MY_VAR
+
+UNSET both
+    unset MY_VAR
+
+Set both as env & shell variable.
+    export MY_VAR=ddcsf 
+
+set on ~/.bashrc
+        /etc/.bashrc

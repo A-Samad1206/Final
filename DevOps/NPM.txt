@@ -1,6 +1,5 @@
 npm list --depth=0
 
-
 npm outdated -g
 
 npm updatd

@@ -1,0 +1,2 @@
+Shell
+    It is a program that provide traditional text-based UI for linux OS.
